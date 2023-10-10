@@ -10401,7 +10401,7 @@ textarea {
   color: #000; }
 
 .sec-halfs .half-content > div {
-  width: 50%; }
+  width: 100%; }
   @media (max-width: 991.98px) {
     .sec-halfs .half-content > div {
       width: 100%; } }
@@ -10409,13 +10409,16 @@ textarea {
 .sec-halfs .half-content .img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center; 
+  padding: 30px}
   @media (max-width: 991.98px) {
     .sec-halfs .half-content .img {
       height: 450px; } }
 
 .sec-halfs .half-content .text {
-  padding: 90px; }
+  padding: 90px; 
+  padding-right: 20px;
+  margin-top: 140px;}
   @media (max-width: 991.98px) {
     .sec-halfs .half-content .text {
       padding: 30px; } }
